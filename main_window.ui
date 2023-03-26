@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1127</width>
+    <height>472</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Assessment 1</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white;
+QTableWidget{
+
+background-color: white;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="11" column="6" colspan="2">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+border-radius: 20px;  
+    background-color: rgb(255, 238, 251);;
+   font-size: 15pt;
+    font-weight: bold;
+   color:  rgb(208, 90, 151);
+    width:  40px;  
+    height: 40px;       
+    border-width: 0px;
+    border-style: solid;  
+    border-color:white;
+}
+ 
+ QPushButton:hover  {
+    background-color: #dbeaff;;
+border-radius: 15px;    
+border-color: rgb(182, 89, 129);
+}
+QPushButton:pressed {
+    background-color: #F9D8D4;
+border-radius: 15px;    
+} </string>
+        </property>
+        <property name="text">
+         <string>Count</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3" rowspan="7">
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="font">
+         <font>
+          <family>Tw Cen MT</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTableWidget{
+border-width: 0px;
+    border-style: solid;  
+    border-color: rgb(182, 89, 129);
+}
+QHeaderView::section {
+    background-color:  rgb(255, 226, 240);
+    padding: 4px;
+    border: 0px;
+}</string>
+        </property>
+        <property name="showGrid">
+         <bool>true</bool>
+        </property>
+        <property name="gridStyle">
+         <enum>Qt::SolidLine</enum>
+        </property>
+        <property name="sortingEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="rowCount">
+         <number>7</number>
+        </property>
+        <property name="columnCount">
+         <number>3</number>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <row>
+         <property name="text">
+          <string>Новая строка</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Новая строка</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Новая строка</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Новая строка</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Новая строка</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Новая строка</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Новая строка</string>
+         </property>
+        </row>
+        <column>
+         <property name="text">
+          <string>Employee Name</string>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="foreground">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>99</red>
+            <green>0</green>
+            <blue>99</blue>
+           </color>
+          </brush>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Hours Worked</string>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="background">
+          <color>
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </property>
+         <property name="foreground">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>99</red>
+            <green>0</green>
+            <blue>99</blue>
+           </color>
+          </brush>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Hourly Rate</string>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="background">
+          <color>
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </property>
+         <property name="foreground">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>99</red>
+            <green>0</green>
+            <blue>99</blue>
+           </color>
+          </brush>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item row="5" column="1" colspan="2">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+QPushButton{
+
+border-radius: 20px;  
+    background-color: rgb(255, 238, 251);;
+   font-size: 20pt;
+
+    font-weight: bold;
+   color: rgb(208, 90, 151);
+    width:  40px;  
+    height: 40px;       
+    border-width: 0px;
+    border-style: solid;  
+    border-color:white;
+}
+ 
+ QPushButton:hover  {
+    background-color: #dbeaff;;
+border-radius: 15px;    
+border-color: rgb(182, 89, 129);
+}
+QPushButton:pressed {
+    background-color: #F9D8D4;
+border-radius: 15px;    
+} </string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="7" rowspan="7">
+       <widget class="QTableWidget" name="tableWidget_2">
+        <property name="font">
+         <font>
+          <family>Tw Cen MT</family>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTableWidget{
+border-width: 0px;
+    border-style: solid;  
+    border-color: rgb(182, 89, 129);
+}
+QHeaderView::section {
+    background-color:  rgb(255, 226, 240);
+    padding: 4px;
+    border: 0px;
+}</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="rowCount">
+         <number>7</number>
+        </property>
+        <attribute name="horizontalHeaderCascadingSectionResizes">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>100</number>
+        </attribute>
+        <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderCascadingSectionResizes">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>30</number>
+        </attribute>
+        <row>
+         <property name="text">
+          <string/>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Новая строка</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Новая строка</string>
+         </property>
+        </row>
+        <row>
+         <property name="text">
+          <string>Новая строка</string>
+         </property>
+        </row>
+        <row/>
+        <row/>
+        <row/>
+        <column>
+         <property name="text">
+          <string>Employee Name</string>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+         <property name="foreground">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>99</red>
+            <green>0</green>
+            <blue>99</blue>
+           </color>
+          </brush>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Income</string>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+         <property name="foreground">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>99</red>
+            <green>0</green>
+            <blue>99</blue>
+           </color>
+          </brush>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Superannuation Deduction</string>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+         <property name="foreground">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>99</red>
+            <green>0</green>
+            <blue>99</blue>
+           </color>
+          </brush>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Income Tax Deduction</string>
+         </property>
+         <property name="font">
+          <font>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+         <property name="foreground">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>99</red>
+            <green>0</green>
+            <blue>99</blue>
+           </color>
+          </brush>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item row="0" column="3" colspan="5">
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>Quicksand SemiBold</family>
+          <pointsize>24</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    color: rgb(208, 90, 151);
+     border-width: 0px;
+}    </string>
+        </property>
+        <property name="text">
+         <string>Tax and income accountant</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1" colspan="2">
+       <widget class="QPushButton" name="pushButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+QPushButton{
+
+border-radius: 20px;  
+    background-color: rgb(255, 238, 251);;
+   font-size: 20pt;
+
+    font-weight: bold;
+   color:rgb(208, 90, 151);
+    width:  40px;  
+    height: 40px;       
+    border-width: 0px;
+    border-style: solid;  
+    border-color:white;
+}
+ 
+ QPushButton:hover  {
+    background-color: #dbeaff;;
+border-radius: 15px;    
+border-color: rgb(182, 89, 129);
+}
+QPushButton:pressed {
+    background-color: #F9D8D4;
+border-radius: 15px;    
+} </string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3" colspan="5">
+       <widget class="QLabel" name="label_2">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    color: rgb(208, 90, 151);
+     border-width: 0px;
+}    </string>
+        </property>
+        <property name="text">
+         <string>Assessment 1 for TECH1200. Developed by student 1817276 - Nadia Proshutina.</string>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1127</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
